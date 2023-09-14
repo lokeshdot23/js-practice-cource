@@ -7,7 +7,6 @@
   </head>
   <body>
     <script>
-      /*
       console.log(typeof true);
       false;
       console.log(3 > 5);
@@ -27,7 +26,6 @@
       console.log(true && false);
       console.log(true || false);
       console.log(!true);
-      */
       if (0) {
         console.log("truthy");
       }
@@ -35,6 +33,22 @@
       if (cartQuantity) {
         console.log("you have 5 items in your cart");
       }
+      let variable1;
+      console.log(variable1);
+
+      //  if else short hand notation using and and different ways
+      const result = true ? "truthy" : "falsy";
+      console.log(result);
+      // and operator
+      true && console.log("hello"); //the guard operator
+      false && console.log("hello");
+      const message = true && "hello message";
+      console.log(message);
+      //or operator or default operator
+      const currency = "EUR" || "USD"; //here first value is not undefined or null or falsey value so it takes eru but if it is falsy it might tage the default usd value
+      console.log(currency);
+      const currency2 = undefined || "USD"; //stopped for first as the first value is undefined
+      console.log(currency2);
     </script>
   </body>
 </html>

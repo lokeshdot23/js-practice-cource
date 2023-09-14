@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function in js</title>
+  </head>
+  <body>
+    <script>
+      //A function lets us to reuse the code
+      /*
+      function function1() {
+        console.log("This is a function");
+        console.log(2 + 3);
+        return;
+      }
+      function1();
+      // now reuse this again using function1 again
+      function1();
+      */
+      //function with parameters
+      // function calTax(parameter1, parameter2) {
+      //   console.log(parameter1 * 0.1);
+      //   console.log(parameter2 * 0.1);
+      // }
+      function calTax(parameter1, taxPercent = 0.1) {
+        //defalult taxpercent
+        console.log(parameter1 * taxPercent);
+      }
+      calTax(2000, 0.2);
+      calTax(5000);
+    </script>
+  </body>
+</html>
