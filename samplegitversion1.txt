@@ -1,0 +1,4 @@
+simply im checkking how the stage works
+bro i cannt find changes in the sourcs control or working aria or staging area can you please help me with it in the vs code editor
+it found so im working on it
+the plus represents as it as git log command so we need to commit after pressing plus on it else we didnt commit and the negative symbol after adding file it represents git reset so all the added files like git add without commit will be unlogged or unstagged so if we need to commit we need to stage them again or we need to use git log command at windows powershell

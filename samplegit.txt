@@ -1,1 +1,2 @@
 hello this is to try out my new simple git skills on command line 
+i need to redo this file as well as i had added another file and i need to stage multiple filrs to stag them and andd another version after this like raw data to know the next  concept like versioning back wards so to not loose my notes on git versioning 
