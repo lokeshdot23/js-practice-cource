@@ -1,0 +1,1 @@
+hello this is to try out my new simple git skills on command line 
